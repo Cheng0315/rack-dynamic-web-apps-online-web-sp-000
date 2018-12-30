@@ -9,6 +9,9 @@ class Application
 
     if num_1==num_2 && num_2==num_3
       resp.write "You Win"
+      resp.write num_1
+      resp.write num_2
+      resp.write num_3
     else
       resp.write "You Lose"
     end
