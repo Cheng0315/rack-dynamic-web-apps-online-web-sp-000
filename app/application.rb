@@ -14,6 +14,9 @@ class Application
       resp.write num_3
     else
       resp.write "You Lose"
+      resp.write num_1
+      resp.write num_2
+      resp.write num_3
     end
 
     resp.finish
